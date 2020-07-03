@@ -1,0 +1,10 @@
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.exe.config
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.exe
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.pdb
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csprojAssemblyReference.cache
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.Form1.resources
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.Properties.Resources.resources
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csproj.GenerateResource.cache
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csproj.CoreCompileInputs.cache
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.exe
+C:\Users\macbook\source\repos\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.pdb
