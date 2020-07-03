@@ -1,4 +1,4 @@
-﻿namespace DrawingAppWinForm
+﻿namespace GraphicRedactor000
 {
     partial class Form1
     {

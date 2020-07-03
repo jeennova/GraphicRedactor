@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DrawingAppWinForm
+namespace GraphicRedactor000
 {
     public partial class Form1 : Form
     {
@@ -17,14 +17,13 @@ namespace DrawingAppWinForm
         {
             InitializeComponent();
             Draw();
+            StaticBitMap.Bitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
         }
         
         private void Draw()
         {
             
-            Bitmap btm = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            btm.SetPixel( 50, 50, Color.DarkViolet);
-            pictureBox1.Image = btm;
+            
 
         }
 
@@ -39,9 +38,8 @@ namespace DrawingAppWinForm
            int x = e.X;
            int y = e.Y;
 
-           
-
-
+            StaticBitMap.Bitmap.SetPixel(e.X, e.Y, Color.DarkViolet);
+            pictureBox1.Image = StaticBitMap.Bitmap;
         }
     }
 }
