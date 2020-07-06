@@ -41,5 +41,17 @@ namespace GraphicRedactor000
             StaticBitMap.Bitmap.SetPixel(e.X, e.Y, Color.DarkViolet);
             pictureBox1.Image = StaticBitMap.Bitmap;
         }
+
+        
+
+        private void buttonChangeColor_MouseClick(object sender, MouseEventArgs e)
+        {
+            ColorDialog cdl = new ColorDialog();
+            if (cdl.ShowDialog()==DialogResult.OK)
+            {
+                
+                pictureBox1.BackColor = cdl.Color;
+            }
+        }
     }
 }

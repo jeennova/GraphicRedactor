@@ -9,6 +9,7 @@ namespace GraphicRedactor000
 {
    public static class StaticBitMap
     {
+        
        public static Bitmap Bitmap { get; set; }
         
 

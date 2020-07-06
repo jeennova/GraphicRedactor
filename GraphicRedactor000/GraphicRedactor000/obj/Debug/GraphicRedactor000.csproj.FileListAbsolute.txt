@@ -18,3 +18,13 @@ C:\Users\Alex\source\repos\GraphicRedactor\GraphicRedactor000\GraphicRedactor000
 C:\Users\Alex\source\repos\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csproj.CoreCompileInputs.cache
 C:\Users\Alex\source\repos\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.exe
 C:\Users\Alex\source\repos\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.pdb
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.exe.config
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.exe
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\bin\Debug\GraphicRedactor000.pdb
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csprojAssemblyReference.cache
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.Form1.resources
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.Properties.Resources.resources
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csproj.GenerateResource.cache
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.exe
+\\Mac\Home\Documents\DevEducation\GraphicRedactor\GraphicRedactor000\GraphicRedactor000\obj\Debug\GraphicRedactor000.pdb
