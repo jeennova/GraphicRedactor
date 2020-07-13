@@ -76,7 +76,7 @@ namespace GraphicRedactor000
         private void buttonDraw_Click(object sender, EventArgs e)
         {
            
-            tool = new Tool.Brush();
+            tool = new Tool.BrushTool();
         }
     }
 }

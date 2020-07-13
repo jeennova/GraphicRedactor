@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraphicRedactor000
+namespace GraphicRedactor000.Figure
 {
-   public class StaticBitMap
+    class Rectangle
     {
-       public static Bitmap Bitmap { get; set; }
-
     }
 }
