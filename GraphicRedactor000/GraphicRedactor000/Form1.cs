@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GraphicRedactor000.Tool;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,17 +14,17 @@ namespace GraphicRedactor000
 {
     public partial class Form1 : Form
     {
+        public bool cursorAktive;
+        ITool tool;
         public Form1()
         {
             InitializeComponent();
-            Draw();
+           // tool = new Tool.Brush();
             StaticBitMap.Bitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
         }
         
         private void Draw()
         {
-            
-            
 
         }
 
@@ -32,15 +33,28 @@ namespace GraphicRedactor000
         {
 
         }
-
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (tool != null)
+            {
+                tool.MouseDown((PictureBox)sender, e);
+            }
+        }
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (tool != null)
+            {
+                tool.MouseUp((PictureBox)sender, e);
+            }
+        }
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-           int x = e.X;
-           int y = e.Y;
-
-            StaticBitMap.Bitmap.SetPixel(e.X, e.Y, Color.DarkViolet);
-            pictureBox1.Image = StaticBitMap.Bitmap;
+            if (tool != null)
+            {
+                tool.MouseMove((PictureBox)sender, e);
+            }
         }
+
 
         
 
@@ -52,6 +66,17 @@ namespace GraphicRedactor000
                 
                 pictureBox1.BackColor = cdl.Color;
             }
+        }
+
+        private void buttonDrawLine_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDraw_Click(object sender, EventArgs e)
+        {
+           
+            tool = new Tool.Brush();
         }
     }
 }
